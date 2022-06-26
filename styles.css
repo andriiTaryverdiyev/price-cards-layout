@@ -41,6 +41,9 @@
 .price-card__list-item {
   display: flex;
 }
+.price-card__list-item:nth-child(odd) {
+  background-color: rgba(42, 52, 56, 0.5019607843);
+}
 .price-card__list-image {
   margin: 18px 22px 19px 22px;
 }
@@ -62,6 +65,7 @@
 
 .business {
   margin-left: 18px;
+  position: relative;
 }
 
 .price-card__business-price {
@@ -73,6 +77,16 @@
 .price-card__order-btn-orange {
   background: #EC632A;
 }
+.price-card__popular {
+  position: absolute;
+  left: 325px;
+  top: -30px;
+  width: 25px;
+  height: 147px;
+  background-color: #DC3F45;
+  transform: rotate(-45deg);
+  mix-blend-mode: pass though;
+}
 
 .webshop {
   margin-left: 18px;
@@ -83,6 +97,10 @@
 }
 .price-card__webshop-price {
   background: #EC632A;
+}
+
+body {
+  margin: 0;
 }
 
 .page {

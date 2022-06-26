@@ -1,6 +1,10 @@
 @import 'basic.scss';
 @import 'business.scss';
 @import 'webshop.scss';
+body {
+    margin: 0;
+}
+
 .page {
     background-color: #141B1C;
     color: #FFFFFF;

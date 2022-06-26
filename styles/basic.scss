@@ -42,6 +42,9 @@
     &__list-item {
         display: flex;
     }
+    &__list-item:nth-child(odd) {
+        background-color: #2A343880;
+    }
     &__list-image {
         margin: 18px 22px 19px 22px;
     }

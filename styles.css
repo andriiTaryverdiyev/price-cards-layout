@@ -80,8 +80,12 @@
   font-family: Montserrat;
 }
 
+.column-container {
+  display: flex;
+  margin: auto;
+}
+
 .column {
-  margin-top: 115px;
   width: 380px;
   height: 770px;
   background-color: #334247;

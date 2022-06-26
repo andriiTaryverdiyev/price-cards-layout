@@ -1,3 +1,12 @@
 .webshop {
     margin-left: 18px;
 }
+
+.price-card {
+    &__order-btn-orange {
+        background: #EC632A;
+    }
+    &__webshop-price {
+        background: #EC632A;
+    }
+}

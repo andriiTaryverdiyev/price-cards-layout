@@ -67,9 +67,22 @@
 .price-card__business-price {
   background-color: #3A6BA5;
 }
+.price-card__order-btn-blue {
+  background-color: #3A6BA5;
+}
+.price-card__order-btn-orange {
+  background: #EC632A;
+}
 
 .webshop {
   margin-left: 18px;
+}
+
+.price-card__order-btn-orange {
+  background: #EC632A;
+}
+.price-card__webshop-price {
+  background: #EC632A;
 }
 
 .page {

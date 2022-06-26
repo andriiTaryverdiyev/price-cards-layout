@@ -1,0 +1,17 @@
+@import 'basic.scss';
+@import 'business.scss';
+@import 'webshop.scss';
+.page {
+    background-color: #141B1C;
+    color: #FFFFFF;
+    height: 100vh;
+    display: flex;
+    font-family: Montserrat;
+}
+
+.column {
+    margin-top: 115px;
+    width: 380px;
+    height: 770px;
+    background-color: #334247;
+}

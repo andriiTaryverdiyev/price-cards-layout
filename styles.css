@@ -1,3 +1,90 @@
+.basic {
+  margin-left: 132px;
+}
 
+.price-card__title {
+  text-align: center;
+  margin-top: 33px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 0px;
+}
+.price-card__subtitle {
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+}
+.price-card__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  margin-top: 33px;
+  height: 105px;
+  background-color: #5BB189;
+}
+.price-card__description {
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.price-card__option-list {
+  margin-top: 40px;
+}
+.price-card__list-item {
+  display: flex;
+}
+.price-card__list-image {
+  margin: 18px 22px 19px 22px;
+}
+.price-card__list-text {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 18px;
+}
+.price-card__order-btn {
+  margin-top: 39px;
+  margin-left: 112px;
+  width: 154px;
+  height: 40px;
+  padding: 0;
+  border-radius: 20px;
+  border: none;
+  background-color: #5BB189;
+}
+
+.business {
+  margin-left: 18px;
+}
+
+.price-card__business-price {
+  background-color: #3A6BA5;
+}
+
+.webshop {
+  margin-left: 18px;
+}
+
+.page {
+  background-color: #141B1C;
+  color: #FFFFFF;
+  height: 100vh;
+  display: flex;
+  font-family: Montserrat;
+}
+
+.column {
+  margin-top: 115px;
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+}
 
 /*# sourceMappingURL=styles.css.map */

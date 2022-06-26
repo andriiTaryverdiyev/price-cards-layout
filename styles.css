@@ -66,6 +66,7 @@
 .business {
   margin-left: 18px;
   position: relative;
+  overflow: hidden;
 }
 
 .test {
@@ -98,7 +99,14 @@
   height: 147px;
   background-color: #DC3F45;
   transform: rotate(-45deg);
-  mix-blend-mode: pass though;
+}
+.price-card__popular-text {
+  transform: rotate(90deg);
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
 }
 
 .webshop {

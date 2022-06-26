@@ -2,11 +2,6 @@
   margin-left: 132px;
 }
 
-.price-card {
-  width: 380px;
-  height: 770px;
-  background-color: #334247;
-}
 .price-card__title {
   text-align: center;
   margin-top: 33px;
@@ -81,6 +76,11 @@
   transform: rotate(45deg);
 }
 
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+}
 .price-card__business-price {
   background-color: #3A6BA5;
 }

@@ -3,7 +3,13 @@
     position: relative;
 }
 
-.test {}
+.test {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    transform: rotate(45deg)
+}
 
 .price-card {
     &__business-price {

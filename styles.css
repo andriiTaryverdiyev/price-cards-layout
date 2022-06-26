@@ -42,7 +42,7 @@
   display: flex;
 }
 .price-card__list-item:nth-child(odd) {
-  background-color: rgba(42, 52, 56, 0.5019607843);
+  background-color: #2A3438;
 }
 .price-card__list-image {
   margin: 18px 22px 19px 22px;
@@ -66,6 +66,14 @@
 .business {
   margin-left: 18px;
   position: relative;
+}
+
+.test {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  transform: rotate(45deg);
 }
 
 .price-card__business-price {

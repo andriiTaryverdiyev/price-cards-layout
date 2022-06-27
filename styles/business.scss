@@ -33,6 +33,7 @@
         height: 147px;
         background-color: #DC3F45;
         transform: rotate(-45deg);
+        text-align: center;
     }
     &__popular-text {
         transform: rotate(90deg);
@@ -41,6 +42,7 @@
         font-size: 14px;
         line-height: 17px;
         color: #FFFFFF;
+        z-index: 2;
     }
     &__order-btn {
         font-weight: 400;

@@ -35,7 +35,7 @@
   line-height: 18px;
   text-align: center;
 }
-.price-card__option-list {
+.price-card__options-list {
   margin-top: 40px;
 }
 .price-card__list-item {
@@ -99,6 +99,7 @@
   height: 147px;
   background-color: #DC3F45;
   transform: rotate(-45deg);
+  text-align: center;
 }
 .price-card__popular-text {
   transform: rotate(90deg);
@@ -107,6 +108,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+  z-index: 2;
 }
 .price-card__order-btn {
   font-weight: 400;

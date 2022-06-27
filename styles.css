@@ -102,6 +102,7 @@
   text-align: center;
 }
 .price-card__popular-text {
+  display: block;
   transform: rotate(90deg);
   text-align: center;
   font-weight: 700;

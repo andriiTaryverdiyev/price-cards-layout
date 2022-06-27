@@ -27,23 +27,17 @@
     }
     &__popular {
         position: absolute;
-        left: 325px;
-        top: -30px;
-        width: 25px;
-        height: 147px;
+        right: -30px;
+        top: 30px;
+        width: 147px;
+        height: 25px;
         background-color: #DC3F45;
-        transform: rotate(-45deg);
-        text-align: center;
-    }
-    &__popular-text {
-        display: block;
-        transform: rotate(90deg);
         text-align: center;
         font-weight: 700;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 25px;
         color: #FFFFFF;
-        z-index: 2;
+        transform: rotate(45deg);
     }
     &__order-btn {
         font-weight: 400;
